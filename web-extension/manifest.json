@@ -1,8 +1,8 @@
 {
     "manifest_version": 2,
-    "name": "DuckDuckGo HTML Search",
+    "name": "DuckDuckGo HTML (POST) Search",
     "description": "Adds DuckDuckGo HTML as a search engine for a non-JavaScript experience",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "icons": {
         "36": "icons/36.png",
         "48": "icons/48.png",
@@ -13,7 +13,7 @@
     },
     "chrome_settings_overrides": {
         "search_provider": {
-            "name": "DuckDuckGo HTML",
+            "name": "DuckDuckGo HTML (POST)",
             "search_url": "https://html.duckduckgo.com/html/",
             "search_url_post_params": "q={searchTerms}",
             "keyword": "ddg",
